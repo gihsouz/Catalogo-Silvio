@@ -1,0 +1,68 @@
+{
+    "series": [
+        {
+            "id": 1,
+            "titulo": "Stranger Things",
+            "ano": 2016,
+            "genero": "Ficção",
+            "temporadas": 5,
+            "imagem": "img/strangerthings.jpg"
+        },
+        {
+            "id": 2,
+            "titulo": "Dark",
+            "ano": 2017,
+            "genero": "Ficção",
+            "temporadas": 3,
+            "imagem": "img/dark.jpg"
+        },
+        {
+            "id": 3,
+            "titulo": "The Umbrella Academy",
+            "ano": 2019,
+            "genero": "Ficção",
+            "temporadas": 4,
+            "imagem": "img/theumbrella.jpg"
+        },
+        {
+            "id": 4,
+            "titulo": "Lost",
+            "ano": 2004,
+            "genero": "Aventura",
+            "temporadas": 6,
+            "imagem": "img/lost.jpg"
+        },
+        {
+            "id": 5,
+            "titulo": "Avatar: A Lenda de Aang",
+            "ano": 2005,
+            "genero": "Aventura",
+            "temporadas": 3,
+            "imagem": "img/avatar.jpg"
+        },
+        {
+            "id": 6,
+            "titulo": "Normal People",
+            "ano": 2020,
+            "genero": "Romance",
+            "temporadas": 1,
+            "imagem": "img/normalpeople.jpg"
+        },
+        {
+            "id": 7,
+            "titulo": "Heartstopper",
+            "ano": 2022,
+            "genero": "Romance",
+            "temporadas": 3,
+            "imagem": "img/heartstopper.jpg"
+        },
+        {
+            "id": 8,
+            "titulo": "Um Dia",
+            "ano": 2024,
+            "genero": "Romance",
+            "temporadas": 1,
+            "imagem": "img/umdia.jpg"
+        }
+    ]
+}

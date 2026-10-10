@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Séries</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Catálogo de Séries</h1>
+        <p>Consulta de dados carregados via JSON</p>
+    </header>
+
+    <main>
+
+        <section class="controles">
+            <button id="btnCarregar">Carregar Séries</button>
+            <button id="btnOrdenar">Ordenar por Ano</button>
+        </section>
+
+        <section class="controles">
+            <button class="btn-genero" data-genero="Todos">Todos</button>
+            <button class="btn-genero" data-genero="Romance">Romance</button>
+            <button class="btn-genero" data-genero="Ficção">Ficção</button>
+            <button class="btn-genero" data-genero="Aventura">Aventura</button>
+        </section>
+
+        <section class="controles">
+            <input type="number" id="inputAno" placeholder="Digite o ano">
+            <button id="btnFiltrarAno">Filtrar por Ano</button>
+        </section>
+
+        <section class="status-area">
+            <p id="status"></p>
+        </section>
+
+        <section id="listaSeries" class="lista-alunos"></section>
+
+        <section id="estatisticas" class="estatisticas"></section>
+
+    </main>
+
+    <footer>
+        <p>Interfaces Web II - ETEC Guarulhos</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
